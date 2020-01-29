@@ -4,15 +4,11 @@ public class LinearSearchAlgorithm {
 
     public static void main(String[]args){
         int[] array= new int[]{15,5,20,35,2,42,67,17};
-        System.out.println("Enter element to find in array...");
+        println("Enter element to find in array...");
         Scanner in = new Scanner(System.in);
         int findElement = in.nextInt();
         int result = linearSearchAlgorithm(array, findElement);
-        if (result!=-1){
-            System.out.println("Element is at " +result +" position.");
-        }else{
-            System.out.println("Element not found.");
-        }
+        if (result!=-1) println("Element is at " +result +" position."); else println("Element not found.");
     }
 
     // Linear search or Sequential Algorithm
@@ -25,5 +21,9 @@ public class LinearSearchAlgorithm {
             }
         }
         return temp;
+    }
+
+    private static void println(String message){
+        System.out.println(message);
     }
 }
