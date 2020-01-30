@@ -1,4 +1,4 @@
-package javacode;
+package javacode.searching;
 
 import java.util.Scanner;
 

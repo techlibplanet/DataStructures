@@ -1,4 +1,4 @@
-package javacode;
+package javacode.searching;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
 * It is efficient and also one of the most commonly used techniques that is used to solve problems.
 
 If all the names in the world are written down together in order and you want to search for the position of a specific name,
-*  binary search will accomplish this in a maximum of  iterations.
+*  binary search will accomplish this in a maximum of 35 iterations.
 
 Binary search works only on a sorted set of elements. To use binary search on a collection, the collection must first be sorted.
 
