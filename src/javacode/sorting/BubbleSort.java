@@ -30,8 +30,7 @@ public class BubbleSort {
     }
 
     private static void traverseArray(int[] array) {
-        for (int i = 0; i < array.length; i++)
-            print(array[i] + " ");
+        for (int value : array) print(value + " ");
         print("\n");
     }
 
