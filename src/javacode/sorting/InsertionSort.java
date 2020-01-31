@@ -17,7 +17,9 @@ Step 3 − Compare with all elements in the sorted sub-list on left side
 Step 4 − Shift all the elements in the sorted sub-list that is greater than the
          value to be sorted
 Step 5 − Insert the value
-Step 6 − Repeat until list is sorted*/
+Step 6 − Repeat until list is sorted
+*
+* */
 
 public class InsertionSort {
 
