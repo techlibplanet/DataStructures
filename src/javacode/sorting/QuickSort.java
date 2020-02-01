@@ -18,6 +18,7 @@ public class QuickSort {
         quickSortRecursion(array, 0, array.length - 1);
         print("*****After Sorting*****\n");
         traverseArray(array);
+        
     }
 
     private static int partition(int[] array, int low, int high) {
