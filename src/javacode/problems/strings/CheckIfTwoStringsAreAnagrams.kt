@@ -31,7 +31,7 @@ fun main() {
     val input1 = "testn"
     val input2 = "tets"
 
-    if (CheckIfTwoStringsAreAnagrams.checkAnagrams(input1, input2)){
+    if (CheckIfTwoStringsAreAnagrams.isAnagram(input1, input2)){
         print("The two strings are Anagram of each other")
     }else {
         print("The two strings aren't Anagram of each other")
