@@ -4,7 +4,9 @@ import java.util.*
 
 class CheckIfTwoStringsAreAnagrams {
     companion object{
-        fun checkAnagrams(input1 : String, input2 : String): Boolean {
+
+        // Method 1 by using sorting
+        fun isAnagram(input1 : String, input2 : String): Boolean {
             val length1 = input1.length
             val length2 = input2.length
 
