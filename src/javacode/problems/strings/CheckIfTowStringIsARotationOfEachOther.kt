@@ -1,5 +1,7 @@
 package javacode.problems.strings
-
+/*
+* Reference - https://www.java67.com/2017/07/string-rotation-in-java-write-program.html
+* */
 class CheckIfTowStringIsARotationOfEachOther {
     companion object{
         fun checkRotation(original : String, rotation : String): Boolean {
