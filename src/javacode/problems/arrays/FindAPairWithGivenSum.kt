@@ -1,4 +1,4 @@
-package javacode.problems
+package javacode.problems.arrays
 
 import kotlin.collections.HashMap
 
