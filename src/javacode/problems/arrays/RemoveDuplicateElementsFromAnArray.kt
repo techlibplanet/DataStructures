@@ -52,6 +52,6 @@ fun main() {
     val resultArray = RemoveDuplicateElementsFromAnArray.removeDuplicateWithoutUsingCollection(array)
 
     resultArray.forEach {
-        print("$it, ")
+        if(it !=0) print("$it, ")
     }
 }

@@ -29,8 +29,8 @@ fun main() {
     val input1 = "abbcba"
 
     if (CheckIfTheGivenStringIsPalindrome.isPalindrome(input1)){
-        print("Both string are palindrome")
+        print("string are palindrome")
     }else{
-        print("Both string aren't palindrome")
+        print("string aren't palindrome")
     }
 }
